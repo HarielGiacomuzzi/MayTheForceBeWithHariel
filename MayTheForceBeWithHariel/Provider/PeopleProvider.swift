@@ -11,13 +11,13 @@ import Alamofire
 
 protocol PeopleProviderProtocol {
 
-    func fetchPeople(completion: @escaping (Data) -> Void)
+    func fetchPeople(page: Int, completion: @escaping (Data) -> Void)
 }
 
 class PeopleProvider: PeopleProviderProtocol {
 
-    func fetchPeople(completion: @escaping (Data) -> Void) {
-        Alamofire.request("\(Server.Production)\(Routes.People)").responseData { response in
+    func fetchPeople(page: Int = 1, completion: @escaping (Data) -> Void) {
+        Alamofire.request("\(Server.Production)\(Routes.People)\(page)").responseData { response in
             debugPrint("All Response Info: \(response)")
 
             switch response.result {

@@ -13,5 +13,5 @@ enum Server {
 }
 
 enum Routes {
-    static let People = "/people/1"
+    static let People = "/people/?&page="
 }

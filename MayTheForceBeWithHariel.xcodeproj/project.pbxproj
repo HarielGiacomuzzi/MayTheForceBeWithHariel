@@ -11,7 +11,7 @@
 		4FC8F038C31C99F9DDF7CAD1 /* Pods_MayTheForceBeWithHariel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A83E3AADDEE3B499724CD6 /* Pods_MayTheForceBeWithHariel.framework */; };
 		A5938D7AAF7CEDAE22BF3896 /* Pods_MayTheForceBeWithHarielTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1564F6134643C532760B86 /* Pods_MayTheForceBeWithHarielTests.framework */; };
 		DBD636A322D69C3800E7BB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636A222D69C3800E7BB9E /* AppDelegate.swift */; };
-		DBD636A522D69C3800E7BB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636A422D69C3800E7BB9E /* ViewController.swift */; };
+		DBD636A522D69C3800E7BB9E /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636A422D69C3800E7BB9E /* PeopleViewController.swift */; };
 		DBD636A822D69C3800E7BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD636A622D69C3800E7BB9E /* Main.storyboard */; };
 		DBD636AA22D69C3900E7BB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD636A922D69C3900E7BB9E /* Assets.xcassets */; };
 		DBD636AD22D69C3900E7BB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD636AB22D69C3900E7BB9E /* LaunchScreen.storyboard */; };
@@ -22,6 +22,9 @@
 		DBD636D922D6A55700E7BB9E /* Servers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636D822D6A55700E7BB9E /* Servers.swift */; };
 		DBD636DC22D6A69700E7BB9E /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636DB22D6A69700E7BB9E /* PeopleService.swift */; };
 		DBD636DF22D6AFBD00E7BB9E /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636DE22D6AFBD00E7BB9E /* PeopleViewModel.swift */; };
+		DBD636E122D7F57500E7BB9E /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E022D7F57500E7BB9E /* PersonTableViewCell.swift */; };
+		DBD636E322D7FA1A00E7BB9E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */; };
+		DBD636E522D7FA5000E7BB9E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E422D7FA5000E7BB9E /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +56,7 @@
 		B5548CEE84AE50582FB74BA8 /* Pods-MayTheForceBeWithHariel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHariel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHariel/Pods-MayTheForceBeWithHariel.release.xcconfig"; sourceTree = "<group>"; };
 		DBD6369F22D69C3800E7BB9E /* MayTheForceBeWithHariel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayTheForceBeWithHariel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD636A222D69C3800E7BB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBD636A422D69C3800E7BB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD636A422D69C3800E7BB9E /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		DBD636A722D69C3800E7BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD636A922D69C3900E7BB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD636AC22D69C3900E7BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +72,9 @@
 		DBD636D822D6A55700E7BB9E /* Servers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servers.swift; sourceTree = "<group>"; };
 		DBD636DB22D6A69700E7BB9E /* PeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
 		DBD636DE22D6AFBD00E7BB9E /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		DBD636E022D7F57500E7BB9E /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DBD636E422D7FA5000E7BB9E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,11 +159,13 @@
 				DBD636D422D6A06000E7BB9E /* Provider */,
 				DBD636D022D69CCE00E7BB9E /* Model */,
 				DBD636A222D69C3800E7BB9E /* AppDelegate.swift */,
-				DBD636A422D69C3800E7BB9E /* ViewController.swift */,
+				DBD636A422D69C3800E7BB9E /* PeopleViewController.swift */,
 				DBD636A622D69C3800E7BB9E /* Main.storyboard */,
 				DBD636A922D69C3900E7BB9E /* Assets.xcassets */,
 				DBD636AB22D69C3900E7BB9E /* LaunchScreen.storyboard */,
 				DBD636AE22D69C3900E7BB9E /* Info.plist */,
+				DBD636E022D7F57500E7BB9E /* PersonTableViewCell.swift */,
+				DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */,
 			);
 			path = MayTheForceBeWithHariel;
 			sourceTree = "<group>";
@@ -216,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD636DE22D6AFBD00E7BB9E /* PeopleViewModel.swift */,
+				DBD636E422D7FA5000E7BB9E /* File.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -447,12 +456,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD636A522D69C3800E7BB9E /* ViewController.swift in Sources */,
+				DBD636E322D7FA1A00E7BB9E /* DetailViewController.swift in Sources */,
+				DBD636A522D69C3800E7BB9E /* PeopleViewController.swift in Sources */,
 				DBD636D222D69CF700E7BB9E /* People.swift in Sources */,
 				DBD636DC22D6A69700E7BB9E /* PeopleService.swift in Sources */,
 				DBD636A322D69C3800E7BB9E /* AppDelegate.swift in Sources */,
+				DBD636E522D7FA5000E7BB9E /* File.swift in Sources */,
 				DBD636DF22D6AFBD00E7BB9E /* PeopleViewModel.swift in Sources */,
 				DBD636D922D6A55700E7BB9E /* Servers.swift in Sources */,
+				DBD636E122D7F57500E7BB9E /* PersonTableViewCell.swift in Sources */,
 				DBD636D622D6A07600E7BB9E /* PeopleProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,25 +19,25 @@ class PeopleService: PeopleServiceProtocol {
     private var provider: PeopleProviderProtocol?
 
     init(provider: PeopleProviderProtocol = PeopleProvider()) {
-        fetchPersonData()
+        self.provider = provider
     }
 
     func getPeople(page: Int, completion: @escaping ([People]) -> Void) {
-        if let data = personData {
-            let decodedPersons = try? JSONDecoder().decode([People].self, from: data)
-            completion(decodedPersons ?? [])
-        } else {
+        self.provider?.fetchPeople(page: page) { data in
+            if let decodedPersons = try? JSONDecoder().decode(PeopleServerResponse.self, from: data) {
+                completion(decodedPersons.results)
+            }
             completion([])
         }
     }
 
-    private func fetchPersonData() {
-        guard let provider = self.provider else {
-            debugPrint("People Service Provider Empty !")
-            return
-        }
-        provider.fetchPeople { (data) in
-            self.personData = data
-        }
-    }
+//    private func fetchPersonData() {
+//        guard let provider = self.provider else {
+//            debugPrint("People Service Provider Empty !")
+//            return
+//        }
+//        provider.fetchPeople(page: ) { (data) in
+//            self.personData = data
+//        }
+//    }
 }

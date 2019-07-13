@@ -11,6 +11,7 @@ import Foundation
 protocol PeopleServiceProtocol {
 
     func getPeople(page: Int, completion: @escaping ([People]) -> Void)
+    func favoritePerson(person: People, completion: @escaping (Bool) -> Void)
 }
 
 class PeopleService: PeopleServiceProtocol {
@@ -31,13 +32,7 @@ class PeopleService: PeopleServiceProtocol {
         }
     }
 
-//    private func fetchPersonData() {
-//        guard let provider = self.provider else {
-//            debugPrint("People Service Provider Empty !")
-//            return
-//        }
-//        provider.fetchPeople(page: ) { (data) in
-//            self.personData = data
-//        }
-//    }
+    func favoritePerson(person: People, completion: @escaping (Bool) -> Void) {
+        self.provider?.favoritePerson(person: person, completion: completion)
+    }
 }

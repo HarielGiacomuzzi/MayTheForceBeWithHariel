@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A23C49F96E104790387F2AD /* Pods_MayTheForceBeWithHarielUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA6FCCE6190D9EA8FB88951 /* Pods_MayTheForceBeWithHarielUITests.framework */; };
-		4FC8F038C31C99F9DDF7CAD1 /* Pods_MayTheForceBeWithHariel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A83E3AADDEE3B499724CD6 /* Pods_MayTheForceBeWithHariel.framework */; };
-		A5938D7AAF7CEDAE22BF3896 /* Pods_MayTheForceBeWithHarielTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1564F6134643C532760B86 /* Pods_MayTheForceBeWithHarielTests.framework */; };
+		A4F23214E405E5E311218D85 /* libPods-MayTheForceBeWithHarielTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5672FE20BA112BE2E0109057 /* libPods-MayTheForceBeWithHarielTests.a */; };
 		DBD636A322D69C3800E7BB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636A222D69C3800E7BB9E /* AppDelegate.swift */; };
 		DBD636A522D69C3800E7BB9E /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636A422D69C3800E7BB9E /* PeopleViewController.swift */; };
 		DBD636A822D69C3800E7BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD636A622D69C3800E7BB9E /* Main.storyboard */; };
@@ -24,7 +22,9 @@
 		DBD636DF22D6AFBD00E7BB9E /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636DE22D6AFBD00E7BB9E /* PeopleViewModel.swift */; };
 		DBD636E122D7F57500E7BB9E /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E022D7F57500E7BB9E /* PersonTableViewCell.swift */; };
 		DBD636E322D7FA1A00E7BB9E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */; };
-		DBD636E522D7FA5000E7BB9E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E422D7FA5000E7BB9E /* File.swift */; };
+		DBD636E522D7FA5000E7BB9E /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD636E422D7FA5000E7BB9E /* DetailViewModel.swift */; };
+		F76AF05A0B0191F8E823DE16 /* libPods-MayTheForceBeWithHariel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF1076991888AC485B40DE6 /* libPods-MayTheForceBeWithHariel.a */; };
+		FE16EC7BBEAA305A3D559251 /* libPods-MayTheForceBeWithHarielUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF6334ECE327757E17B205E /* libPods-MayTheForceBeWithHarielUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +47,11 @@
 /* Begin PBXFileReference section */
 		08134C56879C9C671B5495AB /* Pods-MayTheForceBeWithHarielTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHarielTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHarielTests/Pods-MayTheForceBeWithHarielTests.debug.xcconfig"; sourceTree = "<group>"; };
 		11810E249EDA07D9849F32AA /* Pods-MayTheForceBeWithHarielUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHarielUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHarielUITests/Pods-MayTheForceBeWithHarielUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FF6334ECE327757E17B205E /* libPods-MayTheForceBeWithHarielUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MayTheForceBeWithHarielUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E653D3839C450148179214F /* Pods-MayTheForceBeWithHarielTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHarielTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHarielTests/Pods-MayTheForceBeWithHarielTests.release.xcconfig"; sourceTree = "<group>"; };
-		6DA6FCCE6190D9EA8FB88951 /* Pods_MayTheForceBeWithHarielUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayTheForceBeWithHarielUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85A83E3AADDEE3B499724CD6 /* Pods_MayTheForceBeWithHariel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayTheForceBeWithHariel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5672FE20BA112BE2E0109057 /* libPods-MayTheForceBeWithHarielTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MayTheForceBeWithHarielTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92334BF5C4CE4F4ABCDE8AC9 /* Pods-MayTheForceBeWithHariel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHariel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHariel/Pods-MayTheForceBeWithHariel.debug.xcconfig"; sourceTree = "<group>"; };
-		9B1564F6134643C532760B86 /* Pods_MayTheForceBeWithHarielTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayTheForceBeWithHarielTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF1076991888AC485B40DE6 /* libPods-MayTheForceBeWithHariel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MayTheForceBeWithHariel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6590B0B715DCDE749B8F8E /* Pods-MayTheForceBeWithHarielUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHarielUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHarielUITests/Pods-MayTheForceBeWithHarielUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B5548CEE84AE50582FB74BA8 /* Pods-MayTheForceBeWithHariel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayTheForceBeWithHariel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MayTheForceBeWithHariel/Pods-MayTheForceBeWithHariel.release.xcconfig"; sourceTree = "<group>"; };
 		DBD6369F22D69C3800E7BB9E /* MayTheForceBeWithHariel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayTheForceBeWithHariel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +74,7 @@
 		DBD636DE22D6AFBD00E7BB9E /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		DBD636E022D7F57500E7BB9E /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		DBD636E422D7FA5000E7BB9E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DBD636E422D7FA5000E7BB9E /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC8F038C31C99F9DDF7CAD1 /* Pods_MayTheForceBeWithHariel.framework in Frameworks */,
+				F76AF05A0B0191F8E823DE16 /* libPods-MayTheForceBeWithHariel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5938D7AAF7CEDAE22BF3896 /* Pods_MayTheForceBeWithHarielTests.framework in Frameworks */,
+				A4F23214E405E5E311218D85 /* libPods-MayTheForceBeWithHarielTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A23C49F96E104790387F2AD /* Pods_MayTheForceBeWithHarielUITests.framework in Frameworks */,
+				FE16EC7BBEAA305A3D559251 /* libPods-MayTheForceBeWithHarielUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,9 +108,9 @@
 		AA77240027EEAD6EFE99A557 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85A83E3AADDEE3B499724CD6 /* Pods_MayTheForceBeWithHariel.framework */,
-				9B1564F6134643C532760B86 /* Pods_MayTheForceBeWithHarielTests.framework */,
-				6DA6FCCE6190D9EA8FB88951 /* Pods_MayTheForceBeWithHarielUITests.framework */,
+				5672FE20BA112BE2E0109057 /* libPods-MayTheForceBeWithHarielTests.a */,
+				1FF6334ECE327757E17B205E /* libPods-MayTheForceBeWithHarielUITests.a */,
+				AAF1076991888AC485B40DE6 /* libPods-MayTheForceBeWithHariel.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,19 +153,18 @@
 		DBD636A122D69C3800E7BB9E /* MayTheForceBeWithHariel */ = {
 			isa = PBXGroup;
 			children = (
+				DBD636E622D93C4B00E7BB9E /* Controllers */,
 				DBD636DD22D6ADEC00E7BB9E /* ViewModel */,
 				DBD636DA22D6A68900E7BB9E /* Service */,
 				DBD636D722D6A53200E7BB9E /* SupportFiles */,
 				DBD636D422D6A06000E7BB9E /* Provider */,
 				DBD636D022D69CCE00E7BB9E /* Model */,
 				DBD636A222D69C3800E7BB9E /* AppDelegate.swift */,
-				DBD636A422D69C3800E7BB9E /* PeopleViewController.swift */,
 				DBD636A622D69C3800E7BB9E /* Main.storyboard */,
 				DBD636A922D69C3900E7BB9E /* Assets.xcassets */,
 				DBD636AB22D69C3900E7BB9E /* LaunchScreen.storyboard */,
 				DBD636AE22D69C3900E7BB9E /* Info.plist */,
 				DBD636E022D7F57500E7BB9E /* PersonTableViewCell.swift */,
-				DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */,
 			);
 			path = MayTheForceBeWithHariel;
 			sourceTree = "<group>";
@@ -224,9 +223,18 @@
 			isa = PBXGroup;
 			children = (
 				DBD636DE22D6AFBD00E7BB9E /* PeopleViewModel.swift */,
-				DBD636E422D7FA5000E7BB9E /* File.swift */,
+				DBD636E422D7FA5000E7BB9E /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DBD636E622D93C4B00E7BB9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBD636A422D69C3800E7BB9E /* PeopleViewController.swift */,
+				DBD636E222D7FA1A00E7BB9E /* DetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +249,6 @@
 				DBD6369B22D69C3800E7BB9E /* Sources */,
 				DBD6369C22D69C3800E7BB9E /* Frameworks */,
 				DBD6369D22D69C3800E7BB9E /* Resources */,
-				9554DB87DF1CE1154F6B54FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -379,23 +386,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9554DB87DF1CE1154F6B54FB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MayTheForceBeWithHariel/Pods-MayTheForceBeWithHariel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MayTheForceBeWithHariel/Pods-MayTheForceBeWithHariel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayTheForceBeWithHariel/Pods-MayTheForceBeWithHariel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CABCEF8F6EDA929A2C779464 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,7 +451,7 @@
 				DBD636D222D69CF700E7BB9E /* People.swift in Sources */,
 				DBD636DC22D6A69700E7BB9E /* PeopleService.swift in Sources */,
 				DBD636A322D69C3800E7BB9E /* AppDelegate.swift in Sources */,
-				DBD636E522D7FA5000E7BB9E /* File.swift in Sources */,
+				DBD636E522D7FA5000E7BB9E /* DetailViewModel.swift in Sources */,
 				DBD636DF22D6AFBD00E7BB9E /* PeopleViewModel.swift in Sources */,
 				DBD636D922D6A55700E7BB9E /* Servers.swift in Sources */,
 				DBD636E122D7F57500E7BB9E /* PersonTableViewCell.swift in Sources */,

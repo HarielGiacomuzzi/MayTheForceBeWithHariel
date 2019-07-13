@@ -225,10 +225,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDk-0R-GBf">
+                                <rect key="frame" x="179.5" y="482" width="55" height="30"/>
+                                <state key="normal" title="Favorite"/>
+                                <connections>
+                                    <action selector="didTapFavoriteButton:" destination="Rqz-Zc-8LV" eventType="touchUpInside" id="jGN-BR-pdQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="i3H-0d-pia" firstAttribute="centerY" secondItem="mIz-hG-kXT" secondAttribute="centerY" id="09L-EG-clw"/>
+                            <constraint firstItem="RDk-0R-GBf" firstAttribute="centerX" secondItem="xGU-30-nTC" secondAttribute="centerX" id="0Ff-wS-jZz"/>
                             <constraint firstItem="bjj-ZD-DwX" firstAttribute="centerY" secondItem="RbU-rO-Gj2" secondAttribute="centerY" id="1vg-5r-paU"/>
                             <constraint firstItem="Tsv-g8-uM9" firstAttribute="leading" secondItem="lEF-Dc-wWE" secondAttribute="leading" id="4F9-mY-5h5"/>
                             <constraint firstItem="3jv-Qy-8y0" firstAttribute="leading" secondItem="RbU-rO-Gj2" secondAttribute="leading" id="4KX-d3-YAb"/>
@@ -264,8 +272,10 @@
                             <constraint firstItem="8oV-F3-1EI" firstAttribute="centerY" secondItem="LwR-2e-Hko" secondAttribute="centerY" id="kDc-Vr-JHf"/>
                             <constraint firstItem="j49-aj-cmS" firstAttribute="top" secondItem="KPt-gv-GZ4" secondAttribute="bottom" constant="20" id="pX4-mA-y3u"/>
                             <constraint firstItem="Tsv-g8-uM9" firstAttribute="centerY" secondItem="j49-aj-cmS" secondAttribute="centerY" id="pXD-Xi-cZs"/>
+                            <constraint firstItem="RDk-0R-GBf" firstAttribute="top" secondItem="8oV-F3-1EI" secondAttribute="bottom" constant="60" id="pwf-0o-Lpz"/>
                             <constraint firstItem="2Ec-tR-JYq" firstAttribute="top" secondItem="mIz-hG-kXT" secondAttribute="bottom" constant="20" id="qXp-Tk-rfk"/>
                             <constraint firstItem="lEF-Dc-wWE" firstAttribute="leading" secondItem="c7y-Dj-5eJ" secondAttribute="leading" id="rXg-tH-c2c"/>
+                            <constraint firstItem="G8E-sQ-2OH" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="RDk-0R-GBf" secondAttribute="bottom" constant="20" id="txy-RF-K3D"/>
                             <constraint firstItem="c7y-Dj-5eJ" firstAttribute="centerY" secondItem="3jv-Qy-8y0" secondAttribute="centerY" id="tzj-o1-064"/>
                             <constraint firstItem="8oV-F3-1EI" firstAttribute="leading" secondItem="dsM-Nl-13s" secondAttribute="leading" id="vzc-Gw-WB6"/>
                         </constraints>

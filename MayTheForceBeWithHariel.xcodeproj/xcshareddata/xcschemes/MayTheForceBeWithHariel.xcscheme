@@ -37,20 +37,6 @@
             BlueprintName = "MayTheForceBeWithHariel"
             ReferencedContainer = "container:MayTheForceBeWithHariel.xcodeproj">
          </BuildableReference>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DBD636B222D69C3900E7BB9E"
-            BuildableName = "MayTheForceBeWithHarielTests.xctest"
-            BlueprintName = "MayTheForceBeWithHarielTests"
-            ReferencedContainer = "container:MayTheForceBeWithHariel.xcodeproj">
-         </BuildableReference>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DBD636BD22D69C3A00E7BB9E"
-            BuildableName = "MayTheForceBeWithHarielUITests.xctest"
-            BlueprintName = "MayTheForceBeWithHarielUITests"
-            ReferencedContainer = "container:MayTheForceBeWithHariel.xcodeproj">
-         </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
          <TestableReference

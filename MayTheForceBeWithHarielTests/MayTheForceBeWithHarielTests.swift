@@ -20,10 +20,37 @@ class MayTheForceBeWithHarielTests: XCTestCase {
         self.personService = nil
     }
 
-    func testExample() {
+    func testServiceFetchPersons() {
+        let expectation = XCTestExpectation(description: "Need to wait fetch data from server")
+        expectation.expectedFulfillmentCount = 1
+
         self.personService.getPeople(page: 0) { (people) in
-            XCTAssertTrue(people.count != 0)
+            XCTAssertNotNil(people)
+            XCTAssertTrue(people.count == 10)
+            XCTAssertTrue(people.first?.name == "Luke Skywalker")
+            expectation.fulfill()
         }
+
+        wait(for: [expectation], timeout: 60.0)
+    }
+
+    func testServiceFavoritePerson() {
+        let expectation = XCTestExpectation(description: "Need to wait fetch data from server and post it back")
+        expectation.expectedFulfillmentCount = 2
+
+        self.personService.getPeople(page: 0) { (people) in
+            XCTAssertNotNil(people)
+            XCTAssertTrue(people.count == 10)
+            XCTAssertTrue(people.first?.name == "Luke Skywalker")
+            expectation.fulfill()
+
+            self.personService.favoritePerson(person: people.first!, completion: { (success) in
+                XCTAssertTrue(success)
+                expectation.fulfill()
+            })
+        }
+
+        wait(for: [expectation], timeout: 60.0)
     }
 
     func testPerformanceExample() {
